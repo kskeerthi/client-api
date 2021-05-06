@@ -1,0 +1,19 @@
+{
+  "name": "fake-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hotel.js",
+  "scripts": {
+    "start": "json-server -p 3006 hotel.js",
+    "start:image": "json-server -p 3008 image-encoder.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base64-img": "^1.0.4",
+    "faker": "^5.5.3",
+    "filereader": "^0.10.3",
+    "image-to-base64": "^2.2.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
